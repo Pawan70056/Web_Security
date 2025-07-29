@@ -1128,3 +1128,4 @@
 2025-07-29T02:41:11.768Z [INFO]: ::1 - - [29/Jul/2025:02:41:11 +0000] "OPTIONS /api/user/logout HTTP/1.1" 204 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
 2025-07-29T02:41:11.786Z [INFO]: ::1 - - [29/Jul/2025:02:41:11 +0000] "POST /api/user/logout HTTP/1.1" 200 32 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
 2025-07-29T02:41:20.874Z [INFO]: ::1 - - [29/Jul/2025:02:41:20 +0000] "POST /api/user/forgot_password HTTP/1.1" 200 37 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+2025-07-29T09:55:07.629Z [INFO]: Starting the server...
