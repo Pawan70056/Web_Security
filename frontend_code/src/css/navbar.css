@@ -1,0 +1,90 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+    transition: background-color 0.5s ease;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-brand-text {
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* Additional styling for buttons */
+.btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Styling for nav links */
+.navbar-nav .nav-item .nav-link {
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffc107 !important;
+    /* Ensure higher specificity with !important */
+}
+
+/* Margin adjustments for buttons */
+.navbar-nav .nav-item .btn {
+    margin-right: 15px;
+}
+
+.btn12 {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: 5px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 2px 0;
+    }
+
+    .navbar-nav .nav-item .btn {
+        width: 30%;
+        margin: 3px auto;
+    }
+}
