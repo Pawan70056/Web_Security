@@ -1,0 +1,93 @@
+.thumb-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.thumb-wrapper:hover {
+    transform: translateY(-10px) scale(1.05);
+    /* Slightly pop up and enlarge the card */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    /* Add a more pronounced shadow */
+}
+
+/* Rest of the CSS */
+.thumb-wrapper .wish-icon {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color: #ff6b6b;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 100%;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.thumb-wrapper .wish-icon:hover {
+    background-color: rgb(192, 42, 42);
+}
+
+.thumb-wrapper .wish-icon .fa-heart {
+    color: #ffffff;
+}
+
+.thumb-wrapper .img-box {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.thumb-wrapper .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thumb-wrapper .thumb-content {
+    padding: 5%;
+    text-align: center;
+}
+
+.thumb-wrapper .thumb-content h4 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.thumb-wrapper .thumb-content .item-price {
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.thumb-wrapper .thumb-content .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+}
+
+.thumb-wrapper .thumb-content .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.category-container {
+    margin-bottom: 20px;
+}
+
+.category-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.wish-icon.glow {
+    color: red;
+}

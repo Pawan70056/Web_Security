@@ -1,0 +1,156 @@
+body {
+    line-height: 1.7;
+}
+
+/* General styling for the navbar */
+.navbar {
+    padding: 0.5rem 1rem;
+    background-color: #e4dcdc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+    /* Remove default markers */
+}
+
+/* Styling for the brand */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: 40px;
+    margin-right: 0.5rem;
+}
+
+.brand-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Styling for the search form */
+.search-form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex-grow: 1;
+    border-radius: 30px 0 0 30px;
+    border: 1px solid #cccccc;
+    padding: 0.5rem 1rem;
+}
+
+.btn-categoryy {
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.search-btn:hover {
+    color: green;
+}
+
+/* Styling for the icons */
+.nav-icon {
+    font-size: 1.5rem;
+    color: #f1eded;
+}
+
+.nav-icon:hover {
+    color: #007bff;
+}
+
+.btn-link {
+    color: #333;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-link:hover {
+    color: #007bff;
+}
+
+.btn-brand:hover {
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+    transform: scale(1.00);
+    color: white;
+    font-weight: bold;
+}
+
+/* Styling for the post button */
+.icon {
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Optional: Adjustments for small screens */
+@media (max-width: 767px) {
+
+    .navbar-brand,
+    .search-form,
+    .navbar-nav {
+        margin-top: 0.5rem;
+    }
+
+    .search-form {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .search-form input {
+        width: 80%;
+    }
+
+    .nav-ul {
+        margin-top: 0.75rem;
+    }
+}
