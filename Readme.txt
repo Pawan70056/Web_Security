@@ -31,7 +31,7 @@ Follow these steps to set up the project on your local machine:
 
 Clone the repository:
 Go to your bash and do these things
-git clone https://github.com/lalit4312/WebSecurityCw2.git
+git clone https://github.com/Pawan70056/Web_Security.git
 cd WebSecurityCw2
 
 2. Backend Setup
